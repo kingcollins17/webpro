@@ -1,0 +1,68 @@
+@import "./font-colors";
+
+.nav {
+	width: 100%;
+	.wrap {
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		padding: 0.7rem 0;
+		svg {
+			width: 23px;
+			fill: #222531;
+		}
+		nav {
+			display: flex;
+			justify-content: space-between;
+			a {
+				text-decoration: none;
+				font-family: rob;
+				font-size: 1rem;
+				color: $tone-1;
+				padding: 0.3rem 1rem;
+				border-radius: 5px;
+				&:hover,
+				&:active {
+					background: $tone-1;
+					color: $primary;
+				}
+			}
+			button {
+				padding: 0.1rem 1rem;
+				background: transparent;
+				border: 2px solid $tone-1;
+				color: $tone-1;
+				font-size: 1rem;
+				font-family: rob;
+				border-radius: 1px;
+				display: flex;
+				align-items: center;
+				svg {
+					width: 30px;
+					fill: #001dc2;
+				}
+				&:hover {
+					background: #001dc2;
+					color: #fffe;
+					svg {
+						fill: #f1f1f1;
+					}
+				}
+			}
+		}
+	}
+	button {
+		background: transparent;
+		border: 1px solid #929292;
+		z-index: 2;
+		margin: 0 1rem;
+		svg {
+			margin: 0 auto;
+			padding: 0 3px;
+			width: 50px;
+			height: 25px;
+			fill: #494949b7;
+		}
+	}
+}

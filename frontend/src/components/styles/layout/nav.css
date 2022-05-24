@@ -1,0 +1,119 @@
+@font-face {
+  font-family: rob;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: ral;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: source;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: cookie;
+  src: url(../fonts/Cookie-Regular.ttf);
+}
+
+@font-face {
+  font-family: fab;
+  src: url(../fonts/fa-brands-400.ttf);
+}
+
+@font-face {
+  font-family: ops;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav .wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.7rem 0;
+}
+
+.nav .wrap svg {
+  width: 23px;
+  fill: #222531;
+}
+
+.nav .wrap nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .wrap nav a {
+  text-decoration: none;
+  font-family: rob;
+  font-size: 1rem;
+  color: #0043d3;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.nav .wrap nav a:hover, .nav .wrap nav a:active {
+  background: #0043d3;
+  color: #fffc;
+}
+
+.nav .wrap nav button {
+  padding: 0.1rem 1rem;
+  background: transparent;
+  border: 2px solid #0043d3;
+  color: #0043d3;
+  font-size: 1rem;
+  font-family: rob;
+  border-radius: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .wrap nav button svg {
+  width: 30px;
+  fill: #001dc2;
+}
+
+.nav .wrap nav button:hover {
+  background: #001dc2;
+  color: #fffe;
+}
+
+.nav .wrap nav button:hover svg {
+  fill: #f1f1f1;
+}
+
+.nav button {
+  background: transparent;
+  border: 1px solid #929292;
+  z-index: 2;
+  margin: 0 1rem;
+}
+
+.nav button svg {
+  margin: 0 auto;
+  padding: 0 3px;
+  width: 50px;
+  height: 25px;
+  fill: #494949b7;
+}
+/*# sourceMappingURL=nav.css.map */

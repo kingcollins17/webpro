@@ -1,0 +1,102 @@
+@font-face {
+  font-family: rob;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: ral;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: source;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: cookie;
+  src: url(../fonts/Cookie-Regular.ttf);
+}
+
+@font-face {
+  font-family: fab;
+  src: url(../fonts/fa-brands-400.ttf);
+}
+
+@font-face {
+  font-family: ops;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+.tasks {
+  width: 100%;
+}
+
+.tasks .head {
+  color: #002bb8a8;
+  font-family: rob;
+  margin: 1rem;
+}
+
+.tasks .cont {
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0.2rem 0;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: linear-gradient(60deg, #0d0df1, #030303);
+  -webkit-box-shadow: 0 0 1px #0e0e0e;
+          box-shadow: 0 0 1px #0e0e0e;
+}
+
+.tasks .cont .list {
+  width: 98%;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2px 0;
+  gap: 0.5rem;
+}
+
+.tasks .cont .list .item {
+  width: 98%;
+  border-radius: 10px;
+  background: #2e2e2ed7;
+  margin: 0 auto;
+  font-family: source;
+  color: #f7f7f7;
+  padding: 1.2rem 0;
+}
+
+.tasks .cont .list .item .item-cont {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tasks .cont .list .item .item-cont button {
+  display: inline-block;
+  height: 32px;
+  width: 70px;
+  line-height: 32px;
+  padding: 0 0.2rem;
+  font-family: source;
+  color: white;
+  background: #0d0aac;
+  border: none;
+}
+
+.tasks .cont .list .item p:last-child {
+  color: #0246ac;
+}
+/*# sourceMappingURL=listtask.css.map */

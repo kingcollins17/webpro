@@ -1,0 +1,56 @@
+@import "../layout/font-colors";
+
+.tasks {
+	width: 100%;
+	.head {
+		color: #002bb8a8;
+		font-family: rob;
+		margin: 1rem;
+	}
+	.cont {
+		width: 100%;
+		margin: 1rem auto;
+		padding: 0.2rem 0;
+		border-top-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+		background: linear-gradient(60deg, #0d0df1, #030303);
+		box-shadow: 0 0 1px #0e0e0e;
+		.list {
+			width: 98%;
+			margin: 1rem auto;
+			display: flex;
+			flex-direction: column;
+			padding: 2px 0;
+			gap: 0.5rem;
+			.item {
+				width: 98%;
+				border-radius: 10px;
+				background: #2e2e2ed7;
+				margin: 0 auto;
+				font-family: source;
+				color: #f7f7f7;
+				padding: 1.2rem 0;
+				.item-cont {
+					width: 90%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: space-between;
+					button {
+						display: inline-block;
+						height: 32px;
+						width: 70px;
+						line-height: 32px;
+						padding: 0 0.2rem;
+						font-family: source;
+						color: white;
+						background: #0d0aac;
+						border: none;
+					}
+				}
+				p:last-child {
+					color: #0246ac;
+				}
+			}
+		}
+	}
+}

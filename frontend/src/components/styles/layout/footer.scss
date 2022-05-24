@@ -1,0 +1,14 @@
+@import "./font-colors";
+
+.footer {
+	width: 100%;
+	background: #1d1d1d;
+	padding: 0.5rem 0;
+	position: absolute;
+	bottom: 0;
+	p {
+		text-align: center;
+		font-family: source;
+		color: $primary;
+	}
+}

@@ -1,0 +1,49 @@
+@import "../layout/font-colors";
+
+.detail {
+	width: 85%;
+	margin: 2rem auto;
+	min-height: 0;
+	z-index: 2;
+	position: fixed;
+	top: 15rem;
+	left: 1rem;
+	padding: 1.5rem 0;
+	border-radius: 5px;
+	background: #0d0c18;
+	color: $primary;
+	box-shadow: 0 1 3px #cecece;
+	transition: display 0.3s;
+	.btn {
+		width: 90%;
+		margin: 0 auto;
+		button {
+			border: 1px solid #150c9b;
+			color: #141494;
+			padding: 0.3rem 1rem;
+			font-family: source;
+			font-weight: 700;
+		}
+	}
+	.t {
+		width: 90%;
+		margin: 0 auto;
+		.name {
+			margin: 1rem 0;
+			font-family: rob;
+			border-bottom: 1px solid grey;
+		}
+		.desc {
+			font-family: source;
+		}
+		button {
+			margin: 0.6rem 0;
+			padding: 0.3rem 1rem;
+			border: 2px solid #130a8b;
+			background: #13137a;
+			font-family: source;
+			font-weight: 700;
+			color: #f2f2f2;
+		}
+	}
+}
